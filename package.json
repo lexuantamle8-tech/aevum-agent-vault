@@ -1,0 +1,20 @@
+{
+  "name": "aevum-agent-vault",
+  "version": "1.0.0",
+  "description": "AevumGuard: Policy-Bounded Agentic tUSD8 Payment Vault & ERC-8004 Escrow for Aevum Builder Challenge #1 (QDay)",
+  "type": "module",
+  "scripts": {
+    "compile": "node scripts/compile.mjs",
+    "test": "node --test test/AevumAgentVault.test.mjs",
+    "deploy": "node scripts/deploy.mjs",
+    "e2e": "node scripts/e2e_testnet.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.13.5"
+  },
+  "devDependencies": {
+    "ganache": "^7.9.2",
+    "solc": "0.8.24"
+  }
+}
